@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Card/card.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&family=Barlow:ital,wght@1,200&family=Maven+Pro&family=Noto+Sans:wght@400;700&family=Oswald:wght@500&family=Roboto+Slab&family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+    <title>Card page</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo-img">
+            <a href="../Main Page/index.html">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXBlZGonzvEXYCUo_xxRNSNNeCdve6gjXICQArfFAD5Fv5jXNaZvaULYeZCQXEY1jCZ8k&usqp=CAU" alt="logo-of-page" class="img">
+        </a>
+            <span class="material-symbols-outlined">search</span>
+        
+        </div>
+        <ul>
+            <li><a href="../Main Page/index.html">HOME</a></li>
+            <li><a href="../About US page/index1.html">ABOUT</a></li>
+            <li><a href="../Blog/Blog.html">BLOG</a></li>
+            <li><a href="../Contact US/index.html">CONTACT</a></li>
+        </ul>
+        <div class="icons-of-login">
+            <a href="../Card/card.html"><span class="material-symbols-outlined nav1" id="mall-icon">local_mall</span></a>
+            <a href="../Profile/profile.html"><span class="material-symbols-outlined nav1">person</span></a>
+        </div>
+    </nav>
+    <div class="head-of-card">
+        <h1>YOUR CART</h1>
+    </div>
+    <div class="Item-data">
+    <div class="Item-D">
+        <p class="description">ITEM DESCRIPTION</p>
+        <p class="price">UNIT PRICE</p>
+        <p class="quantity">QUANTITY</p>
+        <p class="total">SUBTOTAL</p>
+    </div>
+    <div class="Item-D-1">
+        <p class="saving">SAVINGS</p>
+    </div>
+    </div>
+    <div class="items-list">
+        <div class="List-of-items">
+            <p>Fresh Apple</p>
+            <h2>Fruits</h2>
+        </div>
+        <p class="Q-item">01 PCS RS. 25</p>
+        <div class="price-of-item">
+            <h2>RS. 25</h2>
+            <s>RS. 30</s>
+        </div>
+        <h1 class="Q-2">1</h1>
+        <h2 class="total-1">RS. 25</h2>
+        <h2 class="saving-1">RS. 5</h2>
+    </div>
+<div class="grid-divider">
+    <div class="Item-image">
+        <img src="https://media.istockphoto.com/photos/red-apple-picture-id495878092?b=1&k=20&m=495878092&s=170667a&w=0&h=bJgILGFxOka0ymPlgilH8qaRxFhKole_M6IiYs6RyGM=" alt="">
+        <div class="Q-item-d">
+        <div class="circle">-</div>
+        <div class="Q-I">1</div>
+        <div class="circle">+</div>
+        </div>
+        <button class="goto-btn">Go To Shoping</button>
+    </div>
+    <div class="Total-section">
+        <div class="subtotal-section">
+        <p>Subtotal</p>
+        <h2>RS. 25</h2>
+        </div>
+        <div class="D-charge">
+            <p>Delivery Charges</p>
+            <span class="material-symbols-outlined">help</span>
+            <h2>--</h2>
+        </div>
+        <div class="saving-D">
+        <div class="Tline"> </div>
+        <div class="saving-alert"><p>You Saved Rs. 5</p></div>
+    </div>
+        <div class="GTotal">
+            <p>TOTAL</p>
+            <p class="price-T">RS.25</p>
+        </div>
+        <button id="order-btn" onmouseover="textchange()" onmouseout="textchange1()" >Place Order</button>
+    </div>
+</div>
+    <div class="alert">
+        <p>** Actual Delivery Charges Computed At Order Time</p>
+    </div>
+
+    <section class="Footer">
+        <!-- Here s means Section of footer -->
+        <div class="main-footer">
+        <div class="s-1">
+            <div class="aboutus-footer">
+                <p>About Us</p>
+            </div>
+            <div class="contuct-footer">
+                <p>Contact</p>
+            </div>
+            <div class="terms-footer">
+                <p>Terms & Condition</p>
+            </div>
+        </div>
+        <div class="s-2">
+            <div class="Facebook-footer icons-f">
+                <i class="bi bi-facebook"></i>
+                <p>Facebook</p>
+            </div>
+            <div class="Twitter-footer icons-f">
+                <i class="bi bi-twitter"></i>
+                <p>Twitter</p>
+            </div>
+            <div class="instagarm-footer icons-f">
+                <i class="bi bi-instagram"></i>
+                <p>Instagarm</p>
+            </div>
+        </div>
+        <div class="s-3">
+            <div class="Subscribe-footer">
+                <p>Subscribe To Our NewSletter</p>
+            </div>
+            <div class="input-footer">
+                <input type="email" placeholder="Email Address">
+                <button>Ok</button>
+            </div>
+        </div>
+        <div class="s-4">
+            <div class="Address-footer">
+                <p>491 Evergreen Rd Rosewile, CA 957882</p>
+            </div>
+            <div class="Number-footer">
+                <p>+44 345 678 903</p>
+            </div>
+            <div class="Email-footer">
+                <p>Ashimdevnath72611@gmail.com</p>
+            </div>
+        </div>
+    </div>
+    </section>
+    <script >
+        function textchange(){
+        let btn = document.getElementById('order-btn');
+        btn.innerHTML = 'Order';
+        }
+        function textchange1(){
+        let btn = document.getElementById('order-btn');
+        btn.innerHTML = 'Place Order';
+        }
+
+    </script>
+</body>
+</html>

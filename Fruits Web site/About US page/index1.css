@@ -1,0 +1,333 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* Navbar-section */
+.logo-img{
+    display: flex;
+}
+.logo-img img{
+    width: 10rem;
+    margin: 10px 25px;
+}
+.logo-img span {
+    margin: 25px 2px;
+    font-size: 2rem;
+    color: #fff;
+    cursor: pointer;
+}
+.navbar{
+    display: flex;
+    background-color: #5AB219;
+    width: 100%;
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+}
+.navbar ul{
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 850px;
+}
+.navbar ul li{
+    list-style: none;
+    margin: 0px 20px;
+}
+.navbar ul li a {
+    text-decoration: none;
+    font-size: 1rem;
+    display: flex;
+    color: #fff;
+    font-family: 'Roboto Slab', serif;
+}
+.navbar ul li a:hover {
+    box-shadow: 0 5px 0 0 yellow;
+}
+.icons-of-login .nav1{
+    color: #fff;
+}
+.icons-of-login{
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 900px;
+    color: #fff;
+    cursor: pointer;
+}
+#mall-icon{
+    margin: 0 40px;
+} 
+  /* About body*/
+.D-1-company{
+    display: grid;
+    grid-template-columns: 850px 850px;
+}
+.img-of-company{
+    position: relative;
+    top: 25px;
+    left: 100px;
+    z-index: -1;
+    
+}
+.img-of-company img{
+    width: 690px;
+    height: 1000px;
+    
+}
+.head-of-about{
+    position: relative;
+    top:150px;
+    z-index: -1;
+}
+.head-of-about p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.About-1{
+    margin: 30px 0px;
+    font-size: 2.5rem;
+    color:  #707070;
+}
+.head-of-about h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.5rem;
+    margin-bottom: 100px;
+}
+.data-of-head{
+    font-size: 2.3rem;
+    margin: 0px 25px;
+    color:  #707070;
+}
+.vegetable-about img{
+    position: relative;
+    bottom: 30px;
+    left: 1000px;
+    width: 500px;
+    height: 300px;
+    z-index: -1;
+}
+.about-para{
+    font-size: 2rem;
+    color: #707070;
+    margin: 25px 150px;
+}
+/* Caculation of data */
+.divider-of-about{
+    display: flex;
+    justify-content: space-around;    
+    margin: 100px 0px;
+}
+.divider-of-about img{
+    width: 170px;
+}
+.cala-data{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.numbers h1{
+    font-size:3rem ;
+    text-align: center;
+}
+.numbers p{
+    margin-top: 15px;
+    font-size:2rem;
+    color: #707070;
+}
+/* Company time Line */
+.C-time-line{
+    background-color: #F6C653;
+    height: 690px;
+    padding: 25px;
+    margin-bottom:80px;
+}
+.H-TL{
+    margin-top: 15px;
+    margin-left: 100px;
+    font-size: 2.5rem;
+    font-family: 'Roboto', sans-serif;
+    color: #484848;
+}
+.line-scale{
+    display: flex;
+    margin-top :100px; 
+    align-items: center;
+    margin-left: 100px;
+}
+.line-1{
+    height: 5px;
+    width: 80px;
+    background:#707070;
+}
+.line-2 {
+    height: 5px;
+    width: 400px;
+    background:#707070;
+}
+.line-3 {
+    height: 5px;
+    width: 400px;
+    background:#707070;
+}
+.line-4 {
+    height: 5px;
+    width: 400px;
+    background:#707070;
+}
+.line-5{
+    height: 5px;
+    width:120px;
+    background:#707070;
+}
+.circle{  
+    background-color: #484848;
+    padding: 2px;
+    width: 25px;
+    height: 25px;
+    border-radius:100%;
+}
+.data-of-TL{
+    display: flex;
+    margin-top: 100px;
+}
+.data-of-body{
+    margin: 25px;
+}
+.data-of-body h1{
+    font-size: 3rem;
+    color: #484848;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.data-of-body h2{
+    margin-top: 15px;
+    font-size: 1.7rem;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 70px;
+    letter-spacing:2px;
+    color: #484848;
+}
+.data-of-body p{
+    font-family: 'Roboto', sans-serif;
+    margin-left: 70px;
+    color: #484848;
+    margin-top: 20px;
+}
+/* Farmer Photos */
+.team-head{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.D-flex{
+    display:flex;
+    justify-content: space-around;
+}
+.photos-of-farmer img{
+    width: 260px;
+    height: 225px;
+
+}
+.data-of-photo{
+    background-color:#fff;
+    height: 72px;
+    width: 202px;
+    text-align: center;
+    position: relative;
+    left: 25px;
+    bottom: 25px;
+}
+.D-flex-2{
+    display: flex;
+    justify-content:  center;
+    margin-top: 50px;
+}
+.data-of-photo h3{
+    font-size: 1.3rem;
+    font-family: 'Roboto', sans-serif;
+}
+.data-of-photo p{
+    color: #00FF19;
+    font-size:0.7rem;
+    position: relative;
+    top: 25px;   
+}
+/* PARTNERS */
+.partners-data h1{
+    font-family: 'Roboto', sans-serif;
+    color: #484848;
+    text-align: center;
+    margin-top:100px;;
+}
+.partners-data p{
+    color: #707070;
+    margin: 25px 623px;
+    font-size: 1.2rem;
+
+}
+/* img-of-partners */
+.img-of-trust{
+    display: flex;
+    justify-content: space-around;
+    margin:100px 25px;
+}
+.trust{
+    width: 200px;
+    margin: 20px;
+}
+/* Footer Section */
+.main-footer{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    color: #fff;
+    align-items: center;
+    padding: 50px 0px;
+}
+.main-footer::before{
+    content: "";
+    background-color: #5AB219;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+.s-1 p{
+    margin: 10px;
+}
+.s-2{
+    margin: 15px 0px;
+}
+.s-2 .icons-f{
+    display: flex;
+}
+.s-2 .icons-f i{
+    margin-right: 30px;
+    margin-bottom: 25px;
+}
+.s-3{
+    position: relative;
+    bottom:20px;
+}
+.s-3 .Subscribe-footer{
+     margin:10px 0;
+}
+.input-footer input{
+    padding: 10px 20px;
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+}
+::placeholder {
+    color: #fff;
+    opacity: 1; 
+}
+.input-footer button{
+    padding: 10px 20px;
+    background-color: #fff;
+    border: none;
+    margin: 30px;
+}
